@@ -1,4 +1,4 @@
-# BitCoin-Raffle
+# BitCoin-Raffle (bitcoinraffletix.com)
 
 A comprehensive Bitcoin Raffle Ticketing System developed with PHP, MySQL, Bootstrap, and jQuery. This system allows users to create and join raffle games, buy tickets using Bitcoin, and manage their profiles. The admin and game creators have additional control over the game settings, including verifying payments and stopping manually-ended games. The platform supports automatic game creation and ensures security through captcha, Bitcoin payment verification, and user validation.
 
