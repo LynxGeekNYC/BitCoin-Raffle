@@ -53,27 +53,32 @@ A cron job runs every 24 hours, creating new games automatically.
 
 # Admin Panel:
 
-View All Games: Admins can view all active and completed games, including total players, ticket prices, and pool size.
-Verify Payments: Admins can verify payments using the TXID provided by the player and link to the Bitcoin blockchain for verification.
-Reject Payment: Admins can reject payments and notify the player that the payment was not verified, offering a refund if necessary.
-Stop Game: Manually stop non-timed games. Only the game creator or an admin can stop such games.
-Admin Payout System:
+- View All Games: Admins can view all active and completed games, including total players, ticket prices, and pool size.
+- Verify Payments: Admins can verify payments using the TXID provided by the player and link to the Bitcoin blockchain for verification.
+- Reject Payment: Admins can reject payments and notify the player that the payment was not verified, offering a refund if necessary.
+- Stop Game: Manually stop non-timed games. Only the game creator or an admin can stop such games.
 
-Manual Payouts: 70% of the pool goes to the winner, 20% to the game creator, and 10% to the admin.
-Admin Dashboard: A section for admins to see who needs to be paid and track whether payments were made.
-Active Users Management:
+# Admin Payout System:
 
-Admin Active Users Page: View all users, their total amount paid in Bitcoin, amount won, games created, and referral earnings.
-Referral System Tracking: Admins can track referrals and the payouts owed to referrers.
-Security Features
-Captcha Protection:
+- Manual Payouts: 70% of the pool goes to the winner, 20% to the game creator, and 10% to the admin.
+- Admin Dashboard: A section for admins to see who needs to be paid and track whether payments were made.
 
-Google reCAPTCHA v3: Protects login and registration forms against bots.
-Secure Transactions:
+# Active Users Management:
 
-Bitcoin payments require a verified TXID.
-Users are not considered active players until their payment is verified.
-Error Handling:
+- Admin Active Users Page: View all users, their total amount paid in Bitcoin, amount won, games created, and referral earnings.
+- Referral System Tracking: Admins can track referrals and the payouts owed to referrers.
+- Security Features
 
-Proper error handling for all user input and database interactions.
-Fallback mechanisms if the Bitcoin price API fails.
+# Captcha Protection:
+
+- Google reCAPTCHA v3: Protects login and registration forms against bots.
+
+# Secure Transactions:
+
+- Bitcoin payments require a verified TXID.
+- Users are not considered active players until their payment is verified.
+
+# Error Handling:
+
+- Proper error handling for all user input and database interactions.
+- Fallback mechanisms if the Bitcoin price API fails.
